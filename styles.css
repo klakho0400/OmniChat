@@ -1,0 +1,67 @@
+/* Apply basic styling to the chat container */
+#chat-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Style the chat messages container */
+#chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+/* Style individual chat messages */
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style the message input */
+#message-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the send button */
+#send-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the send button on hover */
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+/* Customize the scrollbar */
+#chat-messages::-webkit-scrollbar {
+    width: 10px;
+}
+
+#chat-messages::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+#chat-messages::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3;
+}
